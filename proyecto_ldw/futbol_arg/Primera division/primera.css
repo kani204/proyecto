@@ -1,0 +1,98 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    background-color: #b9e7b9;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+/*Inicio Estilo Encabezado*/
+
+header{
+    background-color: #98fb98;
+    transition: 2s;
+
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+    transition: 2s;
+    color: rgb(0, 165, 110);
+}
+
+header h2{
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 165, 110);
+    transition: 2s;
+}
+
+header a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #abffab;
+    
+}
+
+ul li{
+    padding: 1.5%;
+    width: 20%;
+    text-align: center;
+    transition: 2s;
+    border-top: solid 1px #228b22;
+    border-bottom: solid 1px #228b22;
+}
+
+ul li:hover{
+    background-color: #98fb98;
+    transition: none;
+    cursor: pointer;
+    
+}
+
+/*Fin Estilo Encabezado*/
+
+/*Inicio Listas*/
+
+
+.lista > li{
+    float: left;
+    width: 100%;
+    border: none;
+    margin: 10px;
+    display: flex;
+}
+
+.lista > li:hover{
+    font-size: 110%;
+    background-color: #7add7a;
+    justify-content: center;
+}
+
+ nav li ul{
+    display: none;
+}
+
+nav li:hover > ul{
+    display: block;
+}
+
+.titulo{
+    font-style: italic;
+    font-size: 130%;
+    font-weight: 540;
+}
+
+/*Fin Listas*/
